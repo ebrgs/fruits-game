@@ -3,18 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/button.css">
     <title>Fruits game</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>FRUIT GAME</h1>
+            <h1 id="cabecalho">
+                <span>F</span>
+                <span>R</span>
+                <span>U</span>
+                <span>I</span>
+                <span>T</span>
+                <span>&#32</span>
+                <span>&#32</span>
+                <span>G</span>
+                <span>A</span>
+                <span>M</span>
+                <span>E</span>
+            </h1>
         </header>
     
         <main>
-            <h2></h2>
+            <div class="pagina_inicio">
+                <!-- <img src="./assets/FRUIT-GAME.png" alt=""> -->
+                
+                <button id="botao_jogar" class="glow-on-hover">PRATICAR</button>
+            </div>
+
+            <div class="pagina_jogo pagina_escondida">
+                <div class="parte_jogo">
+                    <div draggable="true" class="caixa_fruta uva" id="fruta_1"></div>
+                    <div draggable="true" class="caixa_fruta uva" id="fruta_2"></div>
+                    <div draggable="true" class="caixa_fruta uva" id="fruta_3"></div>
+                    <div draggable="true" class="caixa_fruta maca" id="fruta_4"></div>
+                    <div draggable="true" class="caixa_fruta maca" id="fruta_5"></div>
+                    <div draggable="true" class="caixa_fruta maca" id="fruta_6"></div>
+                    <div draggable="true" class="caixa_fruta banana" id="fruta_7"></div>
+                    <div draggable="true" class="caixa_fruta banana" id="fruta_8"></div>
+                    <div draggable="true" class="caixa_fruta banana" id="fruta_9"></div>
+                    <div draggable="true" class="caixa_fruta melancia" id="fruta_10"></div>
+                    <div draggable="true" class="caixa_fruta melancia" id="fruta_11"></div>
+                    <div draggable="true" class="caixa_fruta melancia" id="fruta_12"></div>
+                    <!-- <div draggable="true" class="caixa_fruta" id="fruta_13"></div>
+                    <div draggable="true" class="caixa_fruta" id="fruta_14"></div>
+                    <div draggable="true" class="caixa_fruta" id="fruta_15"></div> -->
+
+                    <div class="box_cestas">
+                        <div class="cesta uva cesta-uva"></div>
+                        <div class="cesta maca cesta-maca"></div>
+                        <div class="cesta banana cesta-banana"></div>
+                        <div class="cesta melancia cesta-melancia"></div>
+                    </div>
+                </div>
+                <div class="box_instrucoes">
+                    <img src="./assets/instruções.jpg" alt="">
+                </div>
+
+                <button id="botao_inicio">Voltar</button>
+            </div>
+
+            <div class="pagina_final pagina_escondida">
+                <button id="botao_reiniciar" class="glow-on-hover">Praticar Novamente</button>
+            </div>
         </main>
     
         <footer></footer>
