@@ -42,8 +42,8 @@ function reiniciarJogo() {
 function aleatorizarFrutas() {
     const caixasFrutas = document.querySelectorAll(".caixa_fruta")
     caixasFrutas.forEach(caixa => {
-        const topFruit = Math.floor(Math.random() * 400)
-        const leftFruit = Math.floor(Math.random() * 900)
+        const topFruit = Math.floor(Math.random() * 200)
+        const leftFruit = Math.floor(Math.random() * 750)
         caixa.style.top = `${topFruit}px`
         caixa.style.left = `${leftFruit}px`
 
