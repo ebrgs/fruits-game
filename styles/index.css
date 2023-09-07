@@ -1,0 +1,25 @@
+.container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+main {
+    background-color: #e5e5e5;
+    height: 570px;
+    opacity: 0.8;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+body {
+    background-image: url(../assets/fruit-4837060_1920.png);
+    background-position: center;
+}
