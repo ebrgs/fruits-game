@@ -20,6 +20,11 @@ header > h1 {
     gap: 5px;
 }
 
+.caixa_fruta {
+    cursor: pointer;
+    cursor: -webkit-grabbing;
+}
+
 header > h1 > span:nth-child(1) {
     color:aqua;
 }
